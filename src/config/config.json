@@ -32,7 +32,7 @@
   "production": {
     "username": "postgres",
     "password": "Thang-Medpro123456@",
-    "database": "database_production",
+    "database": "postgres",
     "host": "db.jgpvrpibyhlpbjqgjecr.supabase.co",
     "dialect": "postgres",
     "logging": false,
