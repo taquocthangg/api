@@ -15,17 +15,33 @@
     "timezone": "+07:00"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "postgres",
+    "password": "Thang-Medpro123456@",
+    "database": "postgres",
+    "host": "db.jgpvrpibyhlpbjqgjecr.supabase.co",
+    "dialect":"postgres",
+    "logging": false,
+    "dialectOptions": {
+      "ssl": {
+         "require": true,
+         "rejectUnauthorized": false
+      }
+    },
+    "timezone": "+07:00"
   },
   "production": {
-    "username": "root",
-    "password": null,
+    "username": "postgres",
+    "password": "Thang-Medpro123456@",
     "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "host": "db.jgpvrpibyhlpbjqgjecr.supabase.co",
+    "dialect": "postgres",
+    "logging": false,
+    "dialectOptions": {
+      "ssl": {
+         "require": true,
+         "rejectUnauthorized": false
+      }
+    },
+    "timezone": "+07:00"
   }
 }
